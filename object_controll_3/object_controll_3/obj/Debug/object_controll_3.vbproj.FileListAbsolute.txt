@@ -1,0 +1,11 @@
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\bin\Debug\object_controll_3.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\bin\Debug\object_controll_3.exe
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\bin\Debug\object_controll_3.pdb
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\bin\Debug\object_controll_3.xml
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.Resources.resources
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.vbproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.exe
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.xml
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.pdb
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.form_main.resources
+c:\users\asus\documents\visual studio 2013\Projects\object_controll_3\object_controll_3\obj\Debug\object_controll_3.form_setting_database.resources
