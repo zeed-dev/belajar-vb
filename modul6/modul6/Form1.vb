@@ -10,21 +10,22 @@
             cbPorsen_Harian.Items.Add(i)
         Next
     End Sub
+    'Prosedur validasi()
+    Private Sub Validasi()
 
+    End Sub
     'Prosedur ListPorsenUTS()
     Private Sub ListPorsenUTS()
         For i As Integer = 10 To 40 Step 5
             cbPorsen_UTS.Items.Add(i)
         Next
     End Sub
-
     'Prosedur ListPorsenUAS()
     Private Sub ListPorsenUAS()
         For i As Integer = 20 To 80 Step 5
             cbPorsen_UAS.Items.Add(i)
         Next
     End Sub
-
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles Me.Load
         Call ListPorsenHarian()
         Call ListPorsenUTS()
@@ -54,16 +55,17 @@
                 txtGrade.Text = "B"
             End If
         End If
+
     End Sub
 
     Private Sub btnSimpan_Click(sender As Object, e As EventArgs) Handles btnSimpan.Click
-        Dim Nim, Nama, Kelas_Prodi As String
+        Dim Nim, Nama, Kelas_Prodi, Grade As String
         Dim Jk As Char
-
 
         Nim = txtNim.Text
         Nama = txtNama.Text
         Kelas_Prodi = cbKelas.Text & "" & cbProdi.Text
+
 
         If rbLaki.Checked = True Then
             Jk = "L"
@@ -71,6 +73,17 @@
             Jk = "P"
         End If
 
+        Grade = txtGrade.Text
 
+        DataGridView1.Rows.Add(Nim, Nama, Kelas_Prodi, Jk, NA, Grade)
+    End Sub
+
+
+    Private Sub HapusToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HapusToolStripMenuItem.Click
+        Dim Tanya As Object
+        Tanya = MsgBox("Yakin Tie Mele Side Hapus..?", vbQuestion + vbYesNo, "Info") = vbYes = True
+        If Tanya = True Then
+            DataGridView1.Rows.RemoveAt(DataGridView1.CurrentRow.Index)
+        End If
     End Sub
 End Class

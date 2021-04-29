@@ -117,10 +117,69 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <metadata name="Nim.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Nama.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Kelas_Prodi.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Jenis_kelamin.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Nilai_akhir.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="Grade.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="ContextMenuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>143, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="HapusToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKmSURBVEhLxda/alRBFAbw9R8oyIriamUhNkLcKkiK
+        NOmCpLG0NA8gSAjZvICNiHWwMogsiLJksTcJ1qbRgI36AKYSTLnO7zIjN5e5600km4FvGWbO+b5zzsyc
+        va2G41TA6YAzEecqSOts2P7XKIshvxBwMeBSwJWAqxHm1uyxSYEcKQgOZUHE1wJuBNwKuB0wFWFuzR4b
+        tuUAGosn0fMBSK4H3AzoBswEzAXMByxEmFuzx4YtH744GokzOBsg4ssBspDVbKfTub+4+HB1ff1lf2fn
+        0+e9vZ+/wNyaPTZsow9fHLhw1oqnTBk6N5FPt9vte71e78nu7pev+/u/R+PAhi0fvpEDF85s5klUaUTJ
+        4W63e+fBYDAY5kTGgQ9fHJELZ7bsbqDL4FyUaJrj5uaH7RxxE/CN4jLHiZsGrb8jldilmFKqo2RaBY5Y
+        dmeOO5W8GFJP2SrLrHPKESV83NoavR9uFDDP2STgwhm5U9ZFuaUuEm+w62bmLtJwYzB6sbY2ev7s6Wjp
+        8aMDsGaPTdUPV7ztnhoNWkW5pa7rOIcZz6LqDP3Xrwq86fdHg3dvD8Ba2s/54sQdNWgV5fajBLrPnDeZ
+        c4Yf37+NRc4HcOKOGrQKYTX31rS+eQ0h5wyptOPmOeDEHTVo0Sx+NHs3b0E3yjlDnVh5ngNO3FGD1skL
+        n0ipG1+u5eWlWmF7Zdsy6i6Xn38+J1hdWakVtle2LaPuOTVqIFAVy82rGNdAGrfMJFCHnM+4lmlIXSQT
+        /ZMwpJ6ydg4T+1uUukgm/iFgJHHl8NY4HPunTxo2Jv6xl0bKXGmci0sh8mP9vE0jibsMIkbiDcpC99H6
+        ZAXm1uyxYcuH76FE0+DgBpYD0HUQOzfNHsyt2SsL8j20aHWUg0iBlJHWG4q1Wn8Ade9ziIlGeEwAAAAA
+        SUVORK5CYII=
+</value>
+  </data>
+  <data name="BatalToolStripMenuItem.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAABGdBTUEAALGPC/xhBQAAAOdQTFRF////
+        3QAA4icn7gAA8gAA7UFB3R4e5wAA2QAA6wAA4gAA6jg4/9ra6MTE/8zM/Pj4/5aW0Xp65S8v/5ub69bW
+        37Ky/+jo2RQU/7S0/6+v/6io/6Ojqzs7uC8v0pGR4svL7k1N/4OD/42NrEpKuRUV+hAQvDg46FNT8mtr
+        1xQU0QYGqkREsycn9FlZ6ERE8F5ex0dH+Xd37ywstUdH+FJS7Tg4vScnyFFRvVdXz4uLyDg47yMjuR4e
+        slxc6RQUqjIy5nx8/2xs/yAg/z4+pmVl/8fHpE9PvFhY/NbWzqmp4ba2pCUltz8/McqVrQAAAaZJREFU
+        OE+t0ulWgkAYBmAhRwsBFQdCREVIJXFAZbE0twpzu//raWYc15+d3j983zwHZiPzH9l+b1lFo84arKJp
+        OhOnyWoc6A0OKqtxmmvwpXhnh6bluhfHutJWU5M5DAstzRiGapG22zVaaZoWzBfUoam4uK3Z4Tvl77cv
+        WdyI4tGhmQs24mYj2ssfytt1F8lyKssBt29C8zmgTckO2erx3FGa6mmKhP6es3Cpp/bwwOYm+4ojXa/q
+        usVxPi6qeutq5di9ODKMmlH1C/hRM4aoc6XEeVCplCo4pVLFtW4VuzmKbZYA1O8U+yIXt2iQ0t+xwUug
+        yQsAoQBZfKEvscFzoKfkucfHXq/3nOP9+p1DDzwJZ46tzo1Dz3/KE8aOWSkE1w4dq31kQei9EgbuxaHT
+        bT8Q5oSXjzl9G0TDk6tO0M4SFuYfOymZUgbIHhyvZDb+zBLOzxO8XynhCfvRajmm3AgjytOEnpWUxOTt
+        qDUoUy6qIcA86rOTlBJA5h40The6O8Tt0eWcpcSKXDYzjdrxr29BmnQnNz/6+9tN2xiXT1/+ezKZX3rx
+        Og61mpw0AAAAAElFTkSuQmCC
+</value>
+  </data>
   <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <metadata name="ToolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
   <data name="btnSimpan.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8

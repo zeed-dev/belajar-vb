@@ -22,6 +22,7 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.Label13 = New System.Windows.Forms.Label()
@@ -53,6 +54,15 @@ Partial Class Form1
         Me.Label1 = New System.Windows.Forms.Label()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
+        Me.Nim = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Nama = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Kelas_Prodi = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Jenis_kelamin = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Nilai_akhir = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.Grade = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.ContextMenuStrip1 = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.HapusToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.BatalToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.btnSimpan = New System.Windows.Forms.ToolStripButton()
@@ -60,6 +70,7 @@ Partial Class Form1
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.ContextMenuStrip1.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.ToolStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -365,13 +376,71 @@ Partial Class Form1
         '
         'DataGridView1
         '
+        Me.DataGridView1.BackgroundColor = System.Drawing.Color.DimGray
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Nim, Me.Nama, Me.Kelas_Prodi, Me.Jenis_kelamin, Me.Nilai_akhir, Me.Grade})
+        Me.DataGridView1.ContextMenuStrip = Me.ContextMenuStrip1
         Me.DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill
         Me.DataGridView1.Location = New System.Drawing.Point(3, 18)
         Me.DataGridView1.Name = "DataGridView1"
         Me.DataGridView1.RowTemplate.Height = 24
         Me.DataGridView1.Size = New System.Drawing.Size(848, 217)
         Me.DataGridView1.TabIndex = 0
+        '
+        'Nim
+        '
+        Me.Nim.HeaderText = "Nim"
+        Me.Nim.Name = "Nim"
+        '
+        'Nama
+        '
+        Me.Nama.HeaderText = "Nama"
+        Me.Nama.Name = "Nama"
+        Me.Nama.Width = 200
+        '
+        'Kelas_Prodi
+        '
+        Me.Kelas_Prodi.HeaderText = "Kelas - Prodi"
+        Me.Kelas_Prodi.Name = "Kelas_Prodi"
+        Me.Kelas_Prodi.Width = 250
+        '
+        'Jenis_kelamin
+        '
+        Me.Jenis_kelamin.HeaderText = "Jenis Kelamin"
+        Me.Jenis_kelamin.Name = "Jenis_kelamin"
+        '
+        'Nilai_akhir
+        '
+        Me.Nilai_akhir.HeaderText = "Nilai Akhir"
+        Me.Nilai_akhir.Name = "Nilai_akhir"
+        Me.Nilai_akhir.Width = 75
+        '
+        'Grade
+        '
+        Me.Grade.HeaderText = "Grade"
+        Me.Grade.Name = "Grade"
+        Me.Grade.Width = 85
+        '
+        'ContextMenuStrip1
+        '
+        Me.ContextMenuStrip1.ImageScalingSize = New System.Drawing.Size(20, 20)
+        Me.ContextMenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HapusToolStripMenuItem, Me.BatalToolStripMenuItem})
+        Me.ContextMenuStrip1.Name = "ContextMenuStrip1"
+        Me.ContextMenuStrip1.Size = New System.Drawing.Size(125, 56)
+        '
+        'HapusToolStripMenuItem
+        '
+        Me.HapusToolStripMenuItem.Image = CType(resources.GetObject("HapusToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.HapusToolStripMenuItem.Name = "HapusToolStripMenuItem"
+        Me.HapusToolStripMenuItem.Size = New System.Drawing.Size(124, 26)
+        Me.HapusToolStripMenuItem.Text = "Hapus"
+        '
+        'BatalToolStripMenuItem
+        '
+        Me.BatalToolStripMenuItem.Image = CType(resources.GetObject("BatalToolStripMenuItem.Image"), System.Drawing.Image)
+        Me.BatalToolStripMenuItem.Name = "BatalToolStripMenuItem"
+        Me.BatalToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
+        Me.BatalToolStripMenuItem.Text = "Batal"
         '
         'GroupBox3
         '
@@ -422,6 +491,7 @@ Partial Class Form1
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.ContextMenuStrip1.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
         Me.GroupBox3.PerformLayout()
         Me.ToolStrip1.ResumeLayout(False)
@@ -463,5 +533,14 @@ Partial Class Form1
     Friend WithEvents ToolStrip1 As System.Windows.Forms.ToolStrip
     Friend WithEvents btnSimpan As System.Windows.Forms.ToolStripButton
     Friend WithEvents btnBatal As System.Windows.Forms.ToolStripButton
+    Friend WithEvents Nim As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Nama As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Kelas_Prodi As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Jenis_kelamin As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Nilai_akhir As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents Grade As System.Windows.Forms.DataGridViewTextBoxColumn
+    Friend WithEvents ContextMenuStrip1 As System.Windows.Forms.ContextMenuStrip
+    Friend WithEvents HapusToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents BatalToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 
 End Class
