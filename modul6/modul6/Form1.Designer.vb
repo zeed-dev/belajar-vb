@@ -439,7 +439,7 @@ Partial Class Form1
         '
         Me.BatalToolStripMenuItem.Image = CType(resources.GetObject("BatalToolStripMenuItem.Image"), System.Drawing.Image)
         Me.BatalToolStripMenuItem.Name = "BatalToolStripMenuItem"
-        Me.BatalToolStripMenuItem.Size = New System.Drawing.Size(179, 26)
+        Me.BatalToolStripMenuItem.Size = New System.Drawing.Size(124, 26)
         Me.BatalToolStripMenuItem.Text = "Batal"
         '
         'GroupBox3
